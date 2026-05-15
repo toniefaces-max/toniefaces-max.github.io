@@ -1,0 +1,33 @@
+body{
+   background-color: rgba(127, 255, 212, 0.5);
+}
+h2{
+background-color: rgb(117, 55, 11);
+    font-size: 30px;
+    
+}
+p{background-color: rgba(210, 105, 30, 0.479)
+    
+
+}
+table{
+    background-color: bisque;
+    font-size: medium;
+    tab-size: 0cqh;
+    text-align: start;
+    top: 20px; 
+}
+img{
+    border-radius: calc(50%);
+} 
+
+
+
+
+
+
+
+
+
+
+
