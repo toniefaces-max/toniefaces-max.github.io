@@ -1,0 +1,406 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff5f7;
+    color: #333;
+}
+
+/* Header */
+header{
+    background-color: #ff69b49d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 20px;
+}
+
+/* Navigation */
+nav{
+    background-color: #ff1493;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: black;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+/* Hero Text */
+.hero-text{
+    width: 45%;
+}
+
+.hero-text h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #ff1493;
+}
+
+.hero-text p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.hero button{
+    padding: 14px 28px;
+    border: none;
+    background-color: #ff1493;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover{
+    background-color: #e60073;
+}
+
+/* Hero Image */
+.hero-image img{
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* Services */
+.services{
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2{
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #ff1493;
+}
+
+/* Service Container */
+.service-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Service Box */
+.service-box{
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.service-box h3{
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer{
+    background-color: #ff1493;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+/* About Section */
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+/* About Image */
+.about-image img{
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* About Text */
+.about-text{
+    width: 50%;
+}
+
+.about-text h2{
+    color: #ff1493;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.about-text p{
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.about-text ul{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-text ul li{
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+
+
+
+/* Business Section */
+.business-section{
+    padding: 60px;
+}
+
+/* Logo Section */
+.logo-section{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo-section img{
+    width: 220px;
+    border-radius: 15px;
+}
+
+/* Business Text */
+.business-text h2{
+    color: #ff1493;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.business-text p{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Services Container */
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* Service Card */
+.service-card{
+    background-color: white;
+    width: 260px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.service-card h3{
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* Canvas Section */
+.canvas-section{
+    padding: 60px;
+    text-align: center;
+}
+
+/* Canvas Heading */
+.canvas-section h2{
+    color: #ff1493;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+/* Canvas Paragraph */
+.canvas-section p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+/* Canvas Image */
+.canvas-image img{
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+}
+
+/* Table */
+.canvas-table table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Table Cells */
+.canvas-table th,
+.canvas-table td{
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* Table Header */
+.canvas-table th{
+    background-color: #ff1493;
+    color: white;
+}
+
+
+
+
+/* Contact Section */
+.contact-section{
+    padding: 60px;
+    text-align: center;
+}
+
+/* Contact Heading */
+.contact-section h2{
+    color: #ff1493;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+/* Contact Paragraph */
+.contact-section p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+/* Contact Container */
+.contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+/* Contact Box */
+.contact-box{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.contact-box h3{
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+
+/* Social Media */
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #ff1493;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.socials a:hover{
+    color: black;
+}
+
+/* Contact Form */
+.contact-form{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+/* Form Inputs */
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Textarea */
+.contact-form textarea{
+    height: 150px;
+}
+
+/* Button */
+.contact-form button{
+    padding: 14px 30px;
+    border: none;
+    background-color: #ff1493;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background-color: #e60073;
+}
